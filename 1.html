@@ -1,0 +1,43 @@
+<html>
+
+<head>
+	<title>My page</title>
+	<link href="main.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<h1><strong>Hello world !</strong></h1>
+       <ul>
+       	<li><a href="index.html"> Home</a> </a></li>
+      	<li> Calculator </li>
+       	<li><a href="2.html"> Second </a></li>
+       </ul>
+
+<h2> This is my first page </h2>
+<p> First page content </p>
+	First number:
+	<br />
+	<input type="number" id="field1">
+	<br />
+	Second number:
+	<br />
+	<input type="number" id="field2">
+	<br />
+	<BUTTON onclick="calculator()">Calculate</BUTTON>
+	<p id="result">
+
+</p>
+	<script type="text/javascript">
+		function calculator(){
+			var field1 = parseInt(document.getElementById('field1').value);
+			var field2 = parseInt(document.getElementById('field2').value);
+			console.log ("Succesfully loaded field1:", field1);
+			console.log ("Succesfully loaded field2:", field2);
+			document.getElementById('result').innerHTML= field1+field2;
+		}
+	</script>
+
+
+</body>
+
+</html>

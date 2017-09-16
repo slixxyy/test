@@ -1,0 +1,19 @@
+body {
+	background-color: #999;
+	font-family: arial;
+}
+
+h1, h2 {
+	color: #333
+}
+
+a {
+	color: green;
+}
+
+p {
+	color: #b3ff01;
+	font-size: 10;
+	background: #666;
+	padding: 10px;
+}
